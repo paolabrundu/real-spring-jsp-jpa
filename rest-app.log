@@ -1,0 +1,84 @@
+2018-06-12 15:05:54.979  INFO 8260 --- [restartedMain] i.n.a.realspring.RealspringApplication   : Starting RealspringApplication on DESKTOP-2I2JED6 with PID 8260 (C:\academy3\pr-46realspring\target\classes started by Paola in C:\academy3\pr-46realspring)
+2018-06-12 15:05:54.979 DEBUG 8260 --- [restartedMain] i.n.a.realspring.RealspringApplication   : Running with Spring Boot v1.5.13.RELEASE, Spring v4.3.17.RELEASE
+2018-06-12 15:05:54.979  INFO 8260 --- [restartedMain] i.n.a.realspring.RealspringApplication   : No active profile set, falling back to default profiles: default
+2018-06-12 15:05:56.907  INFO 8260 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-06-12 15:05:56.923  INFO 8260 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-06-12 15:05:57.019  INFO 8260 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-06-12 15:05:58.213  INFO 8260 --- [restartedMain] i.n.a.realspring.RealspringApplication   : Started RealspringApplication in 3.495 seconds (JVM running for 3.864)
+2018-06-12 15:06:57.123  INFO 8260 --- [restartedMain] i.n.a.realspring.RealspringApplication   : Starting RealspringApplication on DESKTOP-2I2JED6 with PID 8260 (C:\academy3\pr-46realspring\target\classes started by Paola in C:\academy3\pr-46realspring)
+2018-06-12 15:06:57.123 DEBUG 8260 --- [restartedMain] i.n.a.realspring.RealspringApplication   : Running with Spring Boot v1.5.13.RELEASE, Spring v4.3.17.RELEASE
+2018-06-12 15:06:57.123  INFO 8260 --- [restartedMain] i.n.a.realspring.RealspringApplication   : No active profile set, falling back to default profiles: default
+2018-06-12 15:06:57.529  INFO 8804 --- [restartedMain] i.n.a.realspring.RealspringApplication   : Starting RealspringApplication on DESKTOP-2I2JED6 with PID 8804 (C:\academy3\pr-46realspring\target\classes started by Paola in C:\academy3\pr-46realspring)
+2018-06-12 15:06:57.529 DEBUG 8804 --- [restartedMain] i.n.a.realspring.RealspringApplication   : Running with Spring Boot v1.5.13.RELEASE, Spring v4.3.17.RELEASE
+2018-06-12 15:06:57.529  INFO 8804 --- [restartedMain] i.n.a.realspring.RealspringApplication   : No active profile set, falling back to default profiles: default
+2018-06-12 15:06:59.045  INFO 8260 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-06-12 15:06:59.045  INFO 8260 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-06-12 15:06:59.138  INFO 8260 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-06-12 15:07:00.763  INFO 8260 --- [restartedMain] i.n.a.realspring.RealspringApplication   : Started RealspringApplication in 3.702 seconds (JVM running for 66.414)
+2018-06-12 15:07:01.847  INFO 8804 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-06-12 15:07:01.847  INFO 8804 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-06-12 15:07:01.941  INFO 8804 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-06-12 15:07:02.986  WARN 8804 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2018-06-12 15:07:03.064 ERROR 8804 --- [restartedMain] o.apache.catalina.core.StandardService   : Failed to start connector [Connector[HTTP/1.1-8080]]
+
+org.apache.catalina.LifecycleException: Failed to start component [Connector[HTTP/1.1-8080]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.addPreviouslyRemovedConnectors(TomcatEmbeddedServletContainer.java:265) [spring-boot-1.5.13.RELEASE.jar:1.5.13.RELEASE]
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:208) [spring-boot-1.5.13.RELEASE.jar:1.5.13.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.startEmbeddedServletContainer(EmbeddedWebApplicationContext.java:297) [spring-boot-1.5.13.RELEASE.jar:1.5.13.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:145) [spring-boot-1.5.13.RELEASE.jar:1.5.13.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546) [spring-context-4.3.17.RELEASE.jar:4.3.17.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122) [spring-boot-1.5.13.RELEASE.jar:1.5.13.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693) [spring-boot-1.5.13.RELEASE.jar:1.5.13.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360) [spring-boot-1.5.13.RELEASE.jar:1.5.13.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303) [spring-boot-1.5.13.RELEASE.jar:1.5.13.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118) [spring-boot-1.5.13.RELEASE.jar:1.5.13.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107) [spring-boot-1.5.13.RELEASE.jar:1.5.13.RELEASE]
+	at it.nextre.academy.realspring.RealspringApplication.main(RealspringApplication.java:10) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_161]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_161]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_161]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_161]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-1.5.13.RELEASE.jar:1.5.13.RELEASE]
+Caused by: org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1020) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	... 18 common frames omitted
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[na:1.8.0_161]
+	at sun.nio.ch.Net.bind(Net.java:433) ~[na:1.8.0_161]
+	at sun.nio.ch.Net.bind(Net.java:425) ~[na:1.8.0_161]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223) ~[na:1.8.0_161]
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74) ~[na:1.8.0_161]
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1150) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:591) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1018) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	... 19 common frames omitted
+
+2018-06-12 15:07:03.064  INFO 8804 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2018-06-12 15:07:03.079 ERROR 8804 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8080 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8080, or configure this application to listen on another port.
+
+2018-06-12 15:07:32.307  INFO 1996 --- [restartedMain] i.n.a.realspring.RealspringApplication   : Starting RealspringApplication on DESKTOP-2I2JED6 with PID 1996 (C:\academy3\pr-46realspring\target\classes started by Paola in C:\academy3\pr-46realspring)
+2018-06-12 15:07:32.307 DEBUG 1996 --- [restartedMain] i.n.a.realspring.RealspringApplication   : Running with Spring Boot v1.5.13.RELEASE, Spring v4.3.17.RELEASE
+2018-06-12 15:07:32.307  INFO 1996 --- [restartedMain] i.n.a.realspring.RealspringApplication   : No active profile set, falling back to default profiles: default
+2018-06-12 15:07:34.181  INFO 1996 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-06-12 15:07:34.197  INFO 1996 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-06-12 15:07:34.290  INFO 1996 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-06-12 15:07:35.524  INFO 1996 --- [restartedMain] i.n.a.realspring.RealspringApplication   : Started RealspringApplication in 3.498 seconds (JVM running for 4.074)
+2018-06-12 15:08:57.524  INFO 1996 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-06-12 15:08:57.576 DEBUG 1996 --- [http-nio-8080-exec-1] i.n.a.r.controllers.FilmController       : getFilmByRegista() called
+2018-06-12 15:08:57.578 DEBUG 1996 --- [http-nio-8080-exec-1] i.n.a.realspring.services.FilmService    : FileService -> findByRegista() with regista
