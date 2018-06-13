@@ -45,4 +45,39 @@ public class FilmService {
                 .filter(f->f.getRegista().toLowerCase().contains(regista.toLowerCase()))
                 .collect(Collectors.toList());
     }
+
+    public List<Film> findByTitolo (String titolo){
+        logg.debug("FileService -> findByTitolo() with titolo");
+        return videoteca.stream()
+                .filter(f->f.getTitolo().toLowerCase()
+                .contains(titolo.toLowerCase()))
+                .collect(Collectors.toList());
+    }
+
+//    public List<Film> findByAnno (int anno){
+//        logg.debug("FileService -> findByAnno() with anno");
+//        return videoteca.stream()
+//                .filter(f->f.getAnno())
+//                .collect(Collectors.toList());
+//    }
+
+
+    public Film add(Film film){
+        logg.debug("FileService -> add() with film");
+        if(film!=null && film.getId()==0
+                && film.getTitolo()!=null
+                && film.getTitolo().length()>0){
+            long id = videoteca.stream()
+                    .max((f1, f2)-> (int) (f1.getId()-f2.getId()))
+                    .get()
+                    .getId();
+
+        film.setId(++id);
+        videoteca.add(film);
+        return film;
+    }
+        else {
+            return new Film();
+        }
+    }
 }//end class
