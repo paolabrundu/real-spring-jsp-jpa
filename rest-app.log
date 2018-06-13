@@ -82,3 +82,320 @@ Verify the connector's configuration, identify and stop any process that's liste
 2018-06-12 15:08:57.524  INFO 1996 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
 2018-06-12 15:08:57.576 DEBUG 1996 --- [http-nio-8080-exec-1] i.n.a.r.controllers.FilmController       : getFilmByRegista() called
 2018-06-12 15:08:57.578 DEBUG 1996 --- [http-nio-8080-exec-1] i.n.a.realspring.services.FilmService    : FileService -> findByRegista() with regista
+2018-06-12 17:48:19.718  INFO 5344 --- [restartedMain] i.n.a.realspring.RealspringApplication   : Starting RealspringApplication on DESKTOP-2I2JED6 with PID 5344 (C:\academy3\pr-46realspring\target\classes started by Paola in C:\academy3\pr-46realspring)
+2018-06-12 17:48:19.719 DEBUG 5344 --- [restartedMain] i.n.a.realspring.RealspringApplication   : Running with Spring Boot v1.5.13.RELEASE, Spring v4.3.17.RELEASE
+2018-06-12 17:48:19.720  INFO 5344 --- [restartedMain] i.n.a.realspring.RealspringApplication   : No active profile set, falling back to default profiles: default
+2018-06-12 17:48:21.792  INFO 5344 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-06-12 17:48:21.794  INFO 5344 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-06-12 17:48:21.948  INFO 5344 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-06-12 17:48:23.477  INFO 5344 --- [restartedMain] i.n.a.realspring.RealspringApplication   : Started RealspringApplication in 4.037 seconds (JVM running for 4.613)
+2018-06-12 17:48:25.362  INFO 5344 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-06-12 17:48:25.472 DEBUG 5344 --- [http-nio-8080-exec-1] i.n.a.r.controllers.FilmController       : getFilmByRegista() called
+2018-06-12 17:48:25.946 DEBUG 5344 --- [http-nio-8080-exec-1] i.n.a.realspring.services.FilmService    : FileService -> findByRegista() with regista
+2018-06-12 17:50:13.740  INFO 2452 --- [restartedMain] i.n.a.realspring.RealspringApplication   : Starting RealspringApplication on DESKTOP-2I2JED6 with PID 2452 (C:\academy3\pr-46realspring\target\classes started by Paola in C:\academy3\pr-46realspring)
+2018-06-12 17:50:13.741 DEBUG 2452 --- [restartedMain] i.n.a.realspring.RealspringApplication   : Running with Spring Boot v1.5.13.RELEASE, Spring v4.3.17.RELEASE
+2018-06-12 17:50:13.741  INFO 2452 --- [restartedMain] i.n.a.realspring.RealspringApplication   : No active profile set, falling back to default profiles: default
+2018-06-12 17:50:15.839  INFO 2452 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-06-12 17:50:15.841  INFO 2452 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-06-12 17:50:15.944  INFO 2452 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-06-12 17:50:17.262  INFO 2452 --- [restartedMain] i.n.a.realspring.RealspringApplication   : Started RealspringApplication in 3.8 seconds (JVM running for 4.456)
+2018-06-12 17:50:30.663  INFO 10996 --- [restartedMain] i.n.a.realspring.RealspringApplication   : Starting RealspringApplication on DESKTOP-2I2JED6 with PID 10996 (C:\academy3\pr-46realspring\target\classes started by Paola in C:\academy3\pr-46realspring)
+2018-06-12 17:50:30.664 DEBUG 10996 --- [restartedMain] i.n.a.realspring.RealspringApplication   : Running with Spring Boot v1.5.13.RELEASE, Spring v4.3.17.RELEASE
+2018-06-12 17:50:30.664  INFO 10996 --- [restartedMain] i.n.a.realspring.RealspringApplication   : No active profile set, falling back to default profiles: default
+2018-06-12 17:50:32.724  INFO 10996 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-06-12 17:50:32.725  INFO 10996 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-06-12 17:50:32.825  INFO 10996 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-06-12 17:50:34.293  INFO 10996 --- [restartedMain] i.n.a.realspring.RealspringApplication   : Started RealspringApplication in 3.89 seconds (JVM running for 4.503)
+2018-06-12 17:50:38.469  INFO 10996 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-06-12 17:50:38.526 DEBUG 10996 --- [http-nio-8080-exec-1] i.n.a.r.controllers.FilmController       : getFilmByTitolo() called
+2018-06-12 17:50:38.528 DEBUG 10996 --- [http-nio-8080-exec-1] i.n.a.realspring.services.FilmService    : FileService -> findByTitolo() with titolo
+2018-06-12 17:50:42.906 DEBUG 10996 --- [http-nio-8080-exec-2] i.n.a.r.controllers.FilmController       : getFilmByTitolo() called
+2018-06-12 17:50:42.909 DEBUG 10996 --- [http-nio-8080-exec-2] i.n.a.realspring.services.FilmService    : FileService -> findByTitolo() with titolo
+2018-06-12 17:51:00.070 DEBUG 10996 --- [http-nio-8080-exec-4] i.n.a.r.controllers.FilmController       : getFilmByTitolo() called
+2018-06-12 17:51:00.071 DEBUG 10996 --- [http-nio-8080-exec-4] i.n.a.realspring.services.FilmService    : FileService -> findByTitolo() with titolo
+2018-06-12 17:51:10.956 DEBUG 10996 --- [http-nio-8080-exec-6] i.n.a.r.controllers.FilmController       : getFilmByTitolo() called
+2018-06-12 17:51:10.957 DEBUG 10996 --- [http-nio-8080-exec-6] i.n.a.realspring.services.FilmService    : FileService -> findByTitolo() with titolo
+2018-06-12 17:51:21.267 DEBUG 10996 --- [http-nio-8080-exec-8] i.n.a.r.controllers.FilmController       : getFilmByTitolo() called
+2018-06-12 17:51:21.268 DEBUG 10996 --- [http-nio-8080-exec-8] i.n.a.realspring.services.FilmService    : FileService -> findByTitolo() with titolo
+2018-06-12 17:51:22.450 DEBUG 10996 --- [http-nio-8080-exec-9] i.n.a.r.controllers.FilmController       : getFilmByTitolo() called
+2018-06-12 17:51:22.451 DEBUG 10996 --- [http-nio-8080-exec-9] i.n.a.realspring.services.FilmService    : FileService -> findByTitolo() with titolo
+2018-06-12 17:51:26.766 DEBUG 10996 --- [http-nio-8080-exec-10] i.n.a.r.controllers.FilmController       : getFilmByTitolo() called
+2018-06-12 17:51:26.766 DEBUG 10996 --- [http-nio-8080-exec-10] i.n.a.realspring.services.FilmService    : FileService -> findByTitolo() with titolo
+2018-06-12 17:51:31.500 DEBUG 10996 --- [http-nio-8080-exec-1] i.n.a.r.controllers.FilmController       : getFilmByTitolo() called
+2018-06-12 17:51:31.501 DEBUG 10996 --- [http-nio-8080-exec-1] i.n.a.realspring.services.FilmService    : FileService -> findByTitolo() with titolo
+2018-06-12 17:51:33.896 DEBUG 10996 --- [http-nio-8080-exec-3] i.n.a.r.controllers.FilmController       : getFilmByTitolo() called
+2018-06-12 17:51:33.897 DEBUG 10996 --- [http-nio-8080-exec-3] i.n.a.realspring.services.FilmService    : FileService -> findByTitolo() with titolo
+2018-06-13 10:22:22.547  INFO 12420 --- [restartedMain] i.n.a.realspring.RealspringApplication   : Starting RealspringApplication on DESKTOP-2I2JED6 with PID 12420 (C:\academy3\pr-46realspring\target\classes started by Paola in C:\academy3\pr-46realspring)
+2018-06-13 10:22:22.547 DEBUG 12420 --- [restartedMain] i.n.a.realspring.RealspringApplication   : Running with Spring Boot v1.5.13.RELEASE, Spring v4.3.17.RELEASE
+2018-06-13 10:22:22.547  INFO 12420 --- [restartedMain] i.n.a.realspring.RealspringApplication   : No active profile set, falling back to default profiles: default
+2018-06-13 10:22:24.841  INFO 12420 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-06-13 10:22:24.842  INFO 12420 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-06-13 10:22:24.967  INFO 12420 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-06-13 10:22:26.317  INFO 12420 --- [restartedMain] i.n.a.realspring.RealspringApplication   : Started RealspringApplication in 4.049 seconds (JVM running for 4.633)
+2018-06-13 10:26:22.326  INFO 12420 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-06-13 10:26:43.911  WARN 12420 --- [http-nio-8080-exec-4] o.s.web.servlet.PageNotFound             : Request method 'GET' not supported
+2018-06-13 10:26:43.913  WARN 12420 --- [http-nio-8080-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved exception caused by Handler execution: org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported
+2018-06-13 10:28:51.797  INFO 11984 --- [restartedMain] i.n.a.realspring.RealspringApplication   : Starting RealspringApplication on DESKTOP-2I2JED6 with PID 11984 (C:\academy3\pr-46realspring\target\classes started by Paola in C:\academy3\pr-46realspring)
+2018-06-13 10:28:51.813 DEBUG 11984 --- [restartedMain] i.n.a.realspring.RealspringApplication   : Running with Spring Boot v1.5.13.RELEASE, Spring v4.3.17.RELEASE
+2018-06-13 10:28:51.813  INFO 11984 --- [restartedMain] i.n.a.realspring.RealspringApplication   : No active profile set, falling back to default profiles: default
+2018-06-13 10:28:53.845  INFO 11984 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-06-13 10:28:53.847  INFO 11984 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-06-13 10:28:53.944  INFO 11984 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-06-13 10:28:55.161  INFO 11984 --- [restartedMain] i.n.a.realspring.RealspringApplication   : Started RealspringApplication in 3.633 seconds (JVM running for 4.13)
+2018-06-13 10:29:18.784  INFO 11984 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-06-13 10:29:18.833 DEBUG 11984 --- [http-nio-8080-exec-2] i.n.a.r.controllers.FilmController       : getFilms() called
+2018-06-13 10:29:18.834 DEBUG 11984 --- [http-nio-8080-exec-2] i.n.a.realspring.services.FilmService    : FileService -> getAll()
+2018-06-13 10:30:18.548  WARN 11984 --- [http-nio-8080-exec-3] o.s.web.servlet.PageNotFound             : Request method 'POST' not supported
+2018-06-13 10:30:18.550  WARN 11984 --- [http-nio-8080-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved exception caused by Handler execution: org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported
+2018-06-13 10:31:31.227  WARN 11984 --- [http-nio-8080-exec-6] o.s.web.servlet.PageNotFound             : Request method 'POST' not supported
+2018-06-13 10:31:31.229  WARN 11984 --- [http-nio-8080-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved exception caused by Handler execution: org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported
+2018-06-13 10:31:52.933  WARN 11984 --- [http-nio-8080-exec-9] o.s.web.servlet.PageNotFound             : Request method 'POST' not supported
+2018-06-13 10:31:52.933  WARN 11984 --- [http-nio-8080-exec-9] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved exception caused by Handler execution: org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported
+2018-06-13 10:34:36.302 DEBUG 11984 --- [http-nio-8080-exec-2] i.n.a.r.controllers.FilmController       : addFilm() called with film
+2018-06-13 10:39:48.273  INFO 1188 --- [restartedMain] i.n.a.realspring.RealspringApplication   : Starting RealspringApplication on DESKTOP-2I2JED6 with PID 1188 (C:\academy3\pr-46realspring\target\classes started by Paola in C:\academy3\pr-46realspring)
+2018-06-13 10:39:48.273 DEBUG 1188 --- [restartedMain] i.n.a.realspring.RealspringApplication   : Running with Spring Boot v1.5.13.RELEASE, Spring v4.3.17.RELEASE
+2018-06-13 10:39:48.273  INFO 1188 --- [restartedMain] i.n.a.realspring.RealspringApplication   : No active profile set, falling back to default profiles: default
+2018-06-13 10:39:50.389  INFO 1188 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-06-13 10:39:50.391  INFO 1188 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-06-13 10:39:50.485  INFO 1188 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-06-13 10:39:51.710  INFO 1188 --- [restartedMain] i.n.a.realspring.RealspringApplication   : Started RealspringApplication in 3.686 seconds (JVM running for 4.089)
+2018-06-13 10:39:58.433  INFO 1188 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-06-13 10:39:58.480 DEBUG 1188 --- [http-nio-8080-exec-2] i.n.a.r.controllers.FilmController       : addFilm() called with film
+2018-06-13 10:39:58.480 DEBUG 1188 --- [http-nio-8080-exec-2] i.n.a.realspring.services.FilmService    : FileService -> add() with film
+2018-06-13 10:48:11.256 DEBUG 1188 --- [http-nio-8080-exec-5] i.n.a.r.controllers.FilmController       : addFilm() called with film
+2018-06-13 10:48:11.257 DEBUG 1188 --- [http-nio-8080-exec-5] i.n.a.realspring.services.FilmService    : FileService -> add() with film
+2018-06-13 10:48:21.986  INFO 6232 --- [restartedMain] i.n.a.realspring.RealspringApplication   : Starting RealspringApplication on DESKTOP-2I2JED6 with PID 6232 (C:\academy3\pr-46realspring\target\classes started by Paola in C:\academy3\pr-46realspring)
+2018-06-13 10:48:21.986 DEBUG 6232 --- [restartedMain] i.n.a.realspring.RealspringApplication   : Running with Spring Boot v1.5.13.RELEASE, Spring v4.3.17.RELEASE
+2018-06-13 10:48:21.986  INFO 6232 --- [restartedMain] i.n.a.realspring.RealspringApplication   : No active profile set, falling back to default profiles: default
+2018-06-13 10:48:24.367  INFO 6232 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-06-13 10:48:24.369  INFO 6232 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-06-13 10:48:24.523  INFO 6232 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-06-13 10:48:25.955  INFO 6232 --- [restartedMain] i.n.a.realspring.RealspringApplication   : Started RealspringApplication in 4.235 seconds (JVM running for 4.886)
+2018-06-13 10:48:33.176  INFO 6232 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-06-13 10:48:33.301  WARN 6232 --- [http-nio-8080-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Failed to read HTTP message: org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character ('t' (code 116)): was expecting double-quote to start field name; nested exception is com.fasterxml.jackson.core.JsonParseException: Unexpected character ('t' (code 116)): was expecting double-quote to start field name
+ at [Source: java.io.PushbackInputStream@407d7962; line: 2, column: 3]
+2018-06-13 10:48:33.301  WARN 6232 --- [http-nio-8080-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved exception caused by Handler execution: org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character ('t' (code 116)): was expecting double-quote to start field name; nested exception is com.fasterxml.jackson.core.JsonParseException: Unexpected character ('t' (code 116)): was expecting double-quote to start field name
+ at [Source: java.io.PushbackInputStream@407d7962; line: 2, column: 3]
+2018-06-13 10:51:45.711 DEBUG 6232 --- [http-nio-8080-exec-4] i.n.a.r.controllers.FilmController       : addFilm() called with film
+2018-06-13 10:51:45.712 DEBUG 6232 --- [http-nio-8080-exec-4] i.n.a.realspring.services.FilmService    : FileService -> add() with film
+2018-06-13 10:52:01.893 DEBUG 6232 --- [http-nio-8080-exec-5] i.n.a.r.controllers.FilmController       : addFilm() called with film
+2018-06-13 10:52:01.895 DEBUG 6232 --- [http-nio-8080-exec-5] i.n.a.realspring.services.FilmService    : FileService -> add() with film
+2018-06-13 10:54:47.865  INFO 13200 --- [restartedMain] i.n.a.realspring.RealspringApplication   : Starting RealspringApplication on DESKTOP-2I2JED6 with PID 13200 (C:\academy3\pr-46realspring\target\classes started by Paola in C:\academy3\pr-46realspring)
+2018-06-13 10:54:47.865 DEBUG 13200 --- [restartedMain] i.n.a.realspring.RealspringApplication   : Running with Spring Boot v1.5.13.RELEASE, Spring v4.3.17.RELEASE
+2018-06-13 10:54:47.865  INFO 13200 --- [restartedMain] i.n.a.realspring.RealspringApplication   : No active profile set, falling back to default profiles: default
+2018-06-13 10:54:49.926  INFO 13200 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-06-13 10:54:49.926  INFO 13200 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-06-13 10:54:50.023  INFO 13200 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-06-13 10:54:50.957  WARN 13200 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'filmController' method 
+public java.util.List<it.nextre.academy.realspring.models.Film> it.nextre.academy.realspring.controllers.FilmController.addFilm(java.util.List<it.nextre.academy.realspring.models.Film>)
+to {[/film/],methods=[POST]}: There is already 'filmController' bean method
+public it.nextre.academy.realspring.models.Film it.nextre.academy.realspring.controllers.FilmController.addFilm(it.nextre.academy.realspring.models.Film) mapped.
+2018-06-13 10:54:50.957  INFO 13200 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2018-06-13 10:54:50.988 ERROR 13200 --- [restartedMain] o.s.boot.SpringApplication               : Application startup failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'filmController' method 
+public java.util.List<it.nextre.academy.realspring.models.Film> it.nextre.academy.realspring.controllers.FilmController.addFilm(java.util.List<it.nextre.academy.realspring.models.Film>)
+to {[/film/],methods=[POST]}: There is already 'filmController' bean method
+public it.nextre.academy.realspring.models.Film it.nextre.academy.realspring.controllers.FilmController.addFilm(it.nextre.academy.realspring.models.Film) mapped.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1634) ~[spring-beans-4.3.17.RELEASE.jar:4.3.17.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555) ~[spring-beans-4.3.17.RELEASE.jar:4.3.17.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483) ~[spring-beans-4.3.17.RELEASE.jar:4.3.17.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:312) ~[spring-beans-4.3.17.RELEASE.jar:4.3.17.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230) ~[spring-beans-4.3.17.RELEASE.jar:4.3.17.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:308) ~[spring-beans-4.3.17.RELEASE.jar:4.3.17.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197) ~[spring-beans-4.3.17.RELEASE.jar:4.3.17.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761) ~[spring-beans-4.3.17.RELEASE.jar:4.3.17.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867) ~[spring-context-4.3.17.RELEASE.jar:4.3.17.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543) ~[spring-context-4.3.17.RELEASE.jar:4.3.17.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122) ~[spring-boot-1.5.13.RELEASE.jar:1.5.13.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693) [spring-boot-1.5.13.RELEASE.jar:1.5.13.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360) [spring-boot-1.5.13.RELEASE.jar:1.5.13.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303) [spring-boot-1.5.13.RELEASE.jar:1.5.13.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118) [spring-boot-1.5.13.RELEASE.jar:1.5.13.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107) [spring-boot-1.5.13.RELEASE.jar:1.5.13.RELEASE]
+	at it.nextre.academy.realspring.RealspringApplication.main(RealspringApplication.java:10) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_161]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_161]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_161]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_161]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-1.5.13.RELEASE.jar:1.5.13.RELEASE]
+Caused by: java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'filmController' method 
+public java.util.List<it.nextre.academy.realspring.models.Film> it.nextre.academy.realspring.controllers.FilmController.addFilm(java.util.List<it.nextre.academy.realspring.models.Film>)
+to {[/film/],methods=[POST]}: There is already 'filmController' bean method
+public it.nextre.academy.realspring.models.Film it.nextre.academy.realspring.controllers.FilmController.addFilm(it.nextre.academy.realspring.models.Film) mapped.
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.assertUniqueMethodMapping(AbstractHandlerMethodMapping.java:576) ~[spring-webmvc-4.3.17.RELEASE.jar:4.3.17.RELEASE]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:540) ~[spring-webmvc-4.3.17.RELEASE.jar:4.3.17.RELEASE]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:264) ~[spring-webmvc-4.3.17.RELEASE.jar:4.3.17.RELEASE]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:250) ~[spring-webmvc-4.3.17.RELEASE.jar:4.3.17.RELEASE]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:214) ~[spring-webmvc-4.3.17.RELEASE.jar:4.3.17.RELEASE]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:184) ~[spring-webmvc-4.3.17.RELEASE.jar:4.3.17.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:127) ~[spring-webmvc-4.3.17.RELEASE.jar:4.3.17.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1692) ~[spring-beans-4.3.17.RELEASE.jar:4.3.17.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1630) ~[spring-beans-4.3.17.RELEASE.jar:4.3.17.RELEASE]
+	... 21 common frames omitted
+
+2018-06-13 10:55:20.619  INFO 8760 --- [restartedMain] i.n.a.realspring.RealspringApplication   : Starting RealspringApplication on DESKTOP-2I2JED6 with PID 8760 (C:\academy3\pr-46realspring\target\classes started by Paola in C:\academy3\pr-46realspring)
+2018-06-13 10:55:20.619 DEBUG 8760 --- [restartedMain] i.n.a.realspring.RealspringApplication   : Running with Spring Boot v1.5.13.RELEASE, Spring v4.3.17.RELEASE
+2018-06-13 10:55:20.619  INFO 8760 --- [restartedMain] i.n.a.realspring.RealspringApplication   : No active profile set, falling back to default profiles: default
+2018-06-13 10:55:22.666  INFO 8760 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-06-13 10:55:22.666  INFO 8760 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-06-13 10:55:22.760  INFO 8760 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-06-13 10:55:23.681  WARN 8760 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'filmController' method 
+public it.nextre.academy.realspring.models.Film it.nextre.academy.realspring.controllers.FilmController.addFilm(it.nextre.academy.realspring.models.Film)
+to {[/film/],methods=[POST]}: There is already 'filmController' bean method
+public java.util.List<it.nextre.academy.realspring.models.Film> it.nextre.academy.realspring.controllers.FilmController.addFilm(java.util.List<it.nextre.academy.realspring.models.Film>) mapped.
+2018-06-13 10:55:23.681  INFO 8760 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2018-06-13 10:55:23.713 ERROR 8760 --- [restartedMain] o.s.boot.SpringApplication               : Application startup failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'filmController' method 
+public it.nextre.academy.realspring.models.Film it.nextre.academy.realspring.controllers.FilmController.addFilm(it.nextre.academy.realspring.models.Film)
+to {[/film/],methods=[POST]}: There is already 'filmController' bean method
+public java.util.List<it.nextre.academy.realspring.models.Film> it.nextre.academy.realspring.controllers.FilmController.addFilm(java.util.List<it.nextre.academy.realspring.models.Film>) mapped.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1634) ~[spring-beans-4.3.17.RELEASE.jar:4.3.17.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555) ~[spring-beans-4.3.17.RELEASE.jar:4.3.17.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483) ~[spring-beans-4.3.17.RELEASE.jar:4.3.17.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:312) ~[spring-beans-4.3.17.RELEASE.jar:4.3.17.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230) ~[spring-beans-4.3.17.RELEASE.jar:4.3.17.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:308) ~[spring-beans-4.3.17.RELEASE.jar:4.3.17.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197) ~[spring-beans-4.3.17.RELEASE.jar:4.3.17.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761) ~[spring-beans-4.3.17.RELEASE.jar:4.3.17.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867) ~[spring-context-4.3.17.RELEASE.jar:4.3.17.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543) ~[spring-context-4.3.17.RELEASE.jar:4.3.17.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122) ~[spring-boot-1.5.13.RELEASE.jar:1.5.13.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693) [spring-boot-1.5.13.RELEASE.jar:1.5.13.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360) [spring-boot-1.5.13.RELEASE.jar:1.5.13.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303) [spring-boot-1.5.13.RELEASE.jar:1.5.13.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118) [spring-boot-1.5.13.RELEASE.jar:1.5.13.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107) [spring-boot-1.5.13.RELEASE.jar:1.5.13.RELEASE]
+	at it.nextre.academy.realspring.RealspringApplication.main(RealspringApplication.java:10) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_161]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_161]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_161]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_161]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-1.5.13.RELEASE.jar:1.5.13.RELEASE]
+Caused by: java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'filmController' method 
+public it.nextre.academy.realspring.models.Film it.nextre.academy.realspring.controllers.FilmController.addFilm(it.nextre.academy.realspring.models.Film)
+to {[/film/],methods=[POST]}: There is already 'filmController' bean method
+public java.util.List<it.nextre.academy.realspring.models.Film> it.nextre.academy.realspring.controllers.FilmController.addFilm(java.util.List<it.nextre.academy.realspring.models.Film>) mapped.
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.assertUniqueMethodMapping(AbstractHandlerMethodMapping.java:576) ~[spring-webmvc-4.3.17.RELEASE.jar:4.3.17.RELEASE]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:540) ~[spring-webmvc-4.3.17.RELEASE.jar:4.3.17.RELEASE]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:264) ~[spring-webmvc-4.3.17.RELEASE.jar:4.3.17.RELEASE]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:250) ~[spring-webmvc-4.3.17.RELEASE.jar:4.3.17.RELEASE]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:214) ~[spring-webmvc-4.3.17.RELEASE.jar:4.3.17.RELEASE]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:184) ~[spring-webmvc-4.3.17.RELEASE.jar:4.3.17.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:127) ~[spring-webmvc-4.3.17.RELEASE.jar:4.3.17.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1692) ~[spring-beans-4.3.17.RELEASE.jar:4.3.17.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1630) ~[spring-beans-4.3.17.RELEASE.jar:4.3.17.RELEASE]
+	... 21 common frames omitted
+
+2018-06-13 11:25:13.203  INFO 10768 --- [restartedMain] i.n.a.realspring.RealspringApplication   : Starting RealspringApplication on DESKTOP-2I2JED6 with PID 10768 (C:\academy3\pr-46realspring\target\classes started by Paola in C:\academy3\pr-46realspring)
+2018-06-13 11:25:13.203 DEBUG 10768 --- [restartedMain] i.n.a.realspring.RealspringApplication   : Running with Spring Boot v1.5.13.RELEASE, Spring v4.3.17.RELEASE
+2018-06-13 11:25:13.203  INFO 10768 --- [restartedMain] i.n.a.realspring.RealspringApplication   : No active profile set, falling back to default profiles: default
+2018-06-13 11:25:15.265  INFO 10768 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-06-13 11:25:15.265  INFO 10768 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-06-13 11:25:15.378  INFO 10768 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-06-13 11:25:16.280  WARN 10768 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'filmController' method 
+public it.nextre.academy.realspring.models.Film it.nextre.academy.realspring.controllers.FilmController.addFilm(it.nextre.academy.realspring.models.Film)
+to {[/film/],methods=[POST]}: There is already 'filmController' bean method
+public java.util.List<it.nextre.academy.realspring.models.Film> it.nextre.academy.realspring.controllers.FilmController.addFilm(java.util.List<it.nextre.academy.realspring.models.Film>) mapped.
+2018-06-13 11:25:16.296  INFO 10768 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2018-06-13 11:25:16.312 ERROR 10768 --- [restartedMain] o.s.boot.SpringApplication               : Application startup failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'filmController' method 
+public it.nextre.academy.realspring.models.Film it.nextre.academy.realspring.controllers.FilmController.addFilm(it.nextre.academy.realspring.models.Film)
+to {[/film/],methods=[POST]}: There is already 'filmController' bean method
+public java.util.List<it.nextre.academy.realspring.models.Film> it.nextre.academy.realspring.controllers.FilmController.addFilm(java.util.List<it.nextre.academy.realspring.models.Film>) mapped.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1634) ~[spring-beans-4.3.17.RELEASE.jar:4.3.17.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555) ~[spring-beans-4.3.17.RELEASE.jar:4.3.17.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483) ~[spring-beans-4.3.17.RELEASE.jar:4.3.17.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:312) ~[spring-beans-4.3.17.RELEASE.jar:4.3.17.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230) ~[spring-beans-4.3.17.RELEASE.jar:4.3.17.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:308) ~[spring-beans-4.3.17.RELEASE.jar:4.3.17.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197) ~[spring-beans-4.3.17.RELEASE.jar:4.3.17.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761) ~[spring-beans-4.3.17.RELEASE.jar:4.3.17.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867) ~[spring-context-4.3.17.RELEASE.jar:4.3.17.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543) ~[spring-context-4.3.17.RELEASE.jar:4.3.17.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122) ~[spring-boot-1.5.13.RELEASE.jar:1.5.13.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693) [spring-boot-1.5.13.RELEASE.jar:1.5.13.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360) [spring-boot-1.5.13.RELEASE.jar:1.5.13.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303) [spring-boot-1.5.13.RELEASE.jar:1.5.13.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118) [spring-boot-1.5.13.RELEASE.jar:1.5.13.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107) [spring-boot-1.5.13.RELEASE.jar:1.5.13.RELEASE]
+	at it.nextre.academy.realspring.RealspringApplication.main(RealspringApplication.java:10) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_161]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_161]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_161]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_161]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-1.5.13.RELEASE.jar:1.5.13.RELEASE]
+Caused by: java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'filmController' method 
+public it.nextre.academy.realspring.models.Film it.nextre.academy.realspring.controllers.FilmController.addFilm(it.nextre.academy.realspring.models.Film)
+to {[/film/],methods=[POST]}: There is already 'filmController' bean method
+public java.util.List<it.nextre.academy.realspring.models.Film> it.nextre.academy.realspring.controllers.FilmController.addFilm(java.util.List<it.nextre.academy.realspring.models.Film>) mapped.
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.assertUniqueMethodMapping(AbstractHandlerMethodMapping.java:576) ~[spring-webmvc-4.3.17.RELEASE.jar:4.3.17.RELEASE]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:540) ~[spring-webmvc-4.3.17.RELEASE.jar:4.3.17.RELEASE]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:264) ~[spring-webmvc-4.3.17.RELEASE.jar:4.3.17.RELEASE]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:250) ~[spring-webmvc-4.3.17.RELEASE.jar:4.3.17.RELEASE]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:214) ~[spring-webmvc-4.3.17.RELEASE.jar:4.3.17.RELEASE]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:184) ~[spring-webmvc-4.3.17.RELEASE.jar:4.3.17.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:127) ~[spring-webmvc-4.3.17.RELEASE.jar:4.3.17.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1692) ~[spring-beans-4.3.17.RELEASE.jar:4.3.17.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1630) ~[spring-beans-4.3.17.RELEASE.jar:4.3.17.RELEASE]
+	... 21 common frames omitted
+
+2018-06-13 11:26:11.508  INFO 10248 --- [restartedMain] i.n.a.realspring.RealspringApplication   : Starting RealspringApplication on DESKTOP-2I2JED6 with PID 10248 (C:\academy3\pr-46realspring\target\classes started by Paola in C:\academy3\pr-46realspring)
+2018-06-13 11:26:11.508 DEBUG 10248 --- [restartedMain] i.n.a.realspring.RealspringApplication   : Running with Spring Boot v1.5.13.RELEASE, Spring v4.3.17.RELEASE
+2018-06-13 11:26:11.508  INFO 10248 --- [restartedMain] i.n.a.realspring.RealspringApplication   : No active profile set, falling back to default profiles: default
+2018-06-13 11:26:13.593  INFO 10248 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-06-13 11:26:13.593  INFO 10248 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-06-13 11:26:13.702  INFO 10248 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-06-13 11:26:14.947  INFO 10248 --- [restartedMain] i.n.a.realspring.RealspringApplication   : Started RealspringApplication in 3.736 seconds (JVM running for 4.212)
+2018-06-13 11:26:29.317  INFO 10248 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-06-13 11:26:29.372 DEBUG 10248 --- [http-nio-8080-exec-2] i.n.a.r.controllers.FilmController       : getFilms() called
+2018-06-13 11:26:29.374 DEBUG 10248 --- [http-nio-8080-exec-2] i.n.a.realspring.services.FilmService    : FileService -> getAll()
+2018-06-13 11:26:57.614 DEBUG 10248 --- [http-nio-8080-exec-3] i.n.a.r.controllers.FilmController       : updateFilm() called with film: Film(id=1, titolo=ddddddddd, regista=ioioio, anno=2001) and id 10
+2018-06-13 11:27:04.874 DEBUG 10248 --- [http-nio-8080-exec-4] i.n.a.r.controllers.FilmController       : updateFilm() called with film: Film(id=1, titolo=ddddddddd, regista=ioioio, anno=2001) and id 1
+2018-06-13 11:27:04.875 DEBUG 10248 --- [http-nio-8080-exec-4] i.n.a.realspring.services.FilmService    : FileService -> save() with film
+2018-06-13 11:27:28.305 DEBUG 10248 --- [http-nio-8080-exec-5] i.n.a.r.controllers.FilmController       : getFilms() called
+2018-06-13 11:27:28.305 DEBUG 10248 --- [http-nio-8080-exec-5] i.n.a.realspring.services.FilmService    : FileService -> getAll()
+2018-06-13 12:02:31.193  INFO 2500 --- [restartedMain] i.n.a.realspring.RealspringApplication   : Starting RealspringApplication on DESKTOP-2I2JED6 with PID 2500 (C:\academy3\pr-46realspring\target\classes started by Paola in C:\academy3\pr-46realspring)
+2018-06-13 12:02:31.193 DEBUG 2500 --- [restartedMain] i.n.a.realspring.RealspringApplication   : Running with Spring Boot v1.5.13.RELEASE, Spring v4.3.17.RELEASE
+2018-06-13 12:02:31.193  INFO 2500 --- [restartedMain] i.n.a.realspring.RealspringApplication   : No active profile set, falling back to default profiles: default
+2018-06-13 12:02:33.288  INFO 2500 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-06-13 12:02:33.288  INFO 2500 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-06-13 12:02:33.407  INFO 2500 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-06-13 12:02:34.709  INFO 2500 --- [restartedMain] i.n.a.realspring.RealspringApplication   : Started RealspringApplication in 3.786 seconds (JVM running for 4.375)
+2018-06-13 12:06:40.206  INFO 2500 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-06-13 12:06:40.299 DEBUG 2500 --- [http-nio-8080-exec-1] i.n.a.r.controllers.FilmController       : deleteFilm() called with film: Film(id=1, titolo=null, regista=null, anno=0) and id 1
+2018-06-13 12:06:40.299 DEBUG 2500 --- [http-nio-8080-exec-1] i.n.a.realspring.services.FilmService    : FileService -> delete() called with film
+2018-06-13 12:06:49.735 DEBUG 2500 --- [http-nio-8080-exec-3] i.n.a.r.controllers.FilmController       : getFilms() called
+2018-06-13 12:06:49.735 DEBUG 2500 --- [http-nio-8080-exec-3] i.n.a.realspring.services.FilmService    : FileService -> getAll()
+2018-06-13 12:10:02.027 DEBUG 2500 --- [http-nio-8080-exec-9] i.n.a.r.controllers.FilmController       : getFilms() called
+2018-06-13 12:10:02.027 DEBUG 2500 --- [http-nio-8080-exec-9] i.n.a.realspring.services.FilmService    : FileService -> getAll()
+2018-06-13 12:11:16.856  INFO 4472 --- [restartedMain] i.n.a.realspring.RealspringApplication   : Starting RealspringApplication on DESKTOP-2I2JED6 with PID 4472 (C:\academy3\pr-46realspring\target\classes started by Paola in C:\academy3\pr-46realspring)
+2018-06-13 12:11:16.857 DEBUG 4472 --- [restartedMain] i.n.a.realspring.RealspringApplication   : Running with Spring Boot v1.5.13.RELEASE, Spring v4.3.17.RELEASE
+2018-06-13 12:11:16.858  INFO 4472 --- [restartedMain] i.n.a.realspring.RealspringApplication   : No active profile set, falling back to default profiles: default
+2018-06-13 12:11:18.942  INFO 4472 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-06-13 12:11:18.942  INFO 4472 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-06-13 12:11:19.039  INFO 4472 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-06-13 12:11:20.512  INFO 4472 --- [restartedMain] i.n.a.realspring.RealspringApplication   : Started RealspringApplication in 3.941 seconds (JVM running for 4.515)
+2018-06-13 12:11:21.040  INFO 4472 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-06-13 12:11:21.087 DEBUG 4472 --- [http-nio-8080-exec-2] i.n.a.r.controllers.FilmController       : getFilms() called
+2018-06-13 12:11:21.087 DEBUG 4472 --- [http-nio-8080-exec-2] i.n.a.realspring.services.FilmService    : FileService -> getAll()
+2018-06-13 12:11:27.687 DEBUG 4472 --- [http-nio-8080-exec-3] i.n.a.r.controllers.FilmController       : deleteFilm() called with film: Film(id=1, titolo=null, regista=null, anno=0) and id 1
+2018-06-13 12:11:27.687 DEBUG 4472 --- [http-nio-8080-exec-3] i.n.a.realspring.services.FilmService    : FileService -> delete() called with film
+2018-06-13 12:11:30.694 DEBUG 4472 --- [http-nio-8080-exec-4] i.n.a.r.controllers.FilmController       : getFilms() called
+2018-06-13 12:11:30.695 DEBUG 4472 --- [http-nio-8080-exec-4] i.n.a.realspring.services.FilmService    : FileService -> getAll()
+2018-06-13 12:12:21.717  INFO 7632 --- [restartedMain] i.n.a.realspring.RealspringApplication   : Starting RealspringApplication on DESKTOP-2I2JED6 with PID 7632 (C:\academy3\pr-46realspring\target\classes started by Paola in C:\academy3\pr-46realspring)
+2018-06-13 12:12:21.717 DEBUG 7632 --- [restartedMain] i.n.a.realspring.RealspringApplication   : Running with Spring Boot v1.5.13.RELEASE, Spring v4.3.17.RELEASE
+2018-06-13 12:12:21.717  INFO 7632 --- [restartedMain] i.n.a.realspring.RealspringApplication   : No active profile set, falling back to default profiles: default
+2018-06-13 12:12:24.039  INFO 7632 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-06-13 12:12:24.039  INFO 7632 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-06-13 12:12:24.133  INFO 7632 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-06-13 12:12:25.555  INFO 7632 --- [restartedMain] i.n.a.realspring.RealspringApplication   : Started RealspringApplication in 4.112 seconds (JVM running for 4.816)
+2018-06-13 12:12:29.291  INFO 7632 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-06-13 12:12:29.323 DEBUG 7632 --- [http-nio-8080-exec-2] i.n.a.r.controllers.FilmController       : getFilms() called
+2018-06-13 12:12:29.339 DEBUG 7632 --- [http-nio-8080-exec-2] i.n.a.realspring.services.FilmService    : FileService -> getAll()
+2018-06-13 12:12:33.853 DEBUG 7632 --- [http-nio-8080-exec-3] i.n.a.r.controllers.FilmController       : deleteFilm() called with film: Film(id=1, titolo=null, regista=null, anno=0) and id 1
+2018-06-13 12:12:33.853 DEBUG 7632 --- [http-nio-8080-exec-3] i.n.a.realspring.services.FilmService    : FileService -> delete() called with film
+2018-06-13 12:12:36.116 DEBUG 7632 --- [http-nio-8080-exec-4] i.n.a.r.controllers.FilmController       : getFilms() called
+2018-06-13 12:12:36.117 DEBUG 7632 --- [http-nio-8080-exec-4] i.n.a.realspring.services.FilmService    : FileService -> getAll()
