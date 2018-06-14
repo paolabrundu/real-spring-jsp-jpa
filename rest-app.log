@@ -399,3 +399,29 @@ public java.util.List<it.nextre.academy.realspring.models.Film> it.nextre.academ
 2018-06-13 12:12:33.853 DEBUG 7632 --- [http-nio-8080-exec-3] i.n.a.realspring.services.FilmService    : FileService -> delete() called with film
 2018-06-13 12:12:36.116 DEBUG 7632 --- [http-nio-8080-exec-4] i.n.a.r.controllers.FilmController       : getFilms() called
 2018-06-13 12:12:36.117 DEBUG 7632 --- [http-nio-8080-exec-4] i.n.a.realspring.services.FilmService    : FileService -> getAll()
+2018-06-13 12:27:43.620  INFO 10800 --- [restartedMain] i.n.a.realspring.RealspringApplication   : Starting RealspringApplication on DESKTOP-2I2JED6 with PID 10800 (C:\academy3\pr-46realspring\target\classes started by Paola in C:\academy3\pr-46realspring)
+2018-06-13 12:27:43.620 DEBUG 10800 --- [restartedMain] i.n.a.realspring.RealspringApplication   : Running with Spring Boot v1.5.13.RELEASE, Spring v4.3.17.RELEASE
+2018-06-13 12:27:43.620  INFO 10800 --- [restartedMain] i.n.a.realspring.RealspringApplication   : No active profile set, falling back to default profiles: default
+2018-06-13 12:27:45.622  INFO 10800 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-06-13 12:27:45.622  INFO 10800 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-06-13 12:27:45.715  INFO 10800 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-06-13 12:27:46.930  INFO 10800 --- [restartedMain] i.n.a.realspring.RealspringApplication   : Started RealspringApplication in 3.562 seconds (JVM running for 3.968)
+2018-06-13 12:27:49.746  INFO 10800 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-06-13 12:27:49.793 DEBUG 10800 --- [http-nio-8080-exec-2] i.n.a.r.controllers.FilmController       : getFilms() called
+2018-06-13 12:27:49.793 DEBUG 10800 --- [http-nio-8080-exec-2] i.n.a.realspring.services.FilmService    : FileService -> getAll()
+2018-06-13 17:32:28.723  INFO 4996 --- [restartedMain] i.n.a.realspring.RealspringApplication   : Starting RealspringApplication on DESKTOP-2I2JED6 with PID 4996 (C:\academy3\pr-46realspring\target\classes started by Paola in C:\academy3\pr-46realspring)
+2018-06-13 17:32:28.723 DEBUG 4996 --- [restartedMain] i.n.a.realspring.RealspringApplication   : Running with Spring Boot v1.5.13.RELEASE, Spring v4.3.17.RELEASE
+2018-06-13 17:32:28.723  INFO 4996 --- [restartedMain] i.n.a.realspring.RealspringApplication   : No active profile set, falling back to default profiles: default
+2018-06-13 17:32:30.952  INFO 4996 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-06-13 17:32:30.952  INFO 4996 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-06-13 17:32:31.046  INFO 4996 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-06-13 17:32:32.325  INFO 4996 --- [restartedMain] i.n.a.realspring.RealspringApplication   : Started RealspringApplication in 3.943 seconds (JVM running for 4.698)
+2018-06-13 17:32:43.796  INFO 4996 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-06-13 17:32:43.843 DEBUG 4996 --- [http-nio-8080-exec-1] i.n.a.r.controllers.FilmController       : getFilmById() called
+2018-06-13 17:32:43.843 DEBUG 4996 --- [http-nio-8080-exec-1] i.n.a.realspring.services.FilmService    : FileService -> findById() with id
+2018-06-13 17:33:03.430 DEBUG 4996 --- [http-nio-8080-exec-3] i.n.a.r.controllers.FilmController       : getFilmById() called
+2018-06-13 17:33:03.430 DEBUG 4996 --- [http-nio-8080-exec-3] i.n.a.realspring.services.FilmService    : FileService -> findById() with id
+2018-06-13 17:33:38.014 DEBUG 4996 --- [http-nio-8080-exec-4] i.n.a.r.controllers.FilmController       : getFilmById() called
+2018-06-13 17:33:38.014 DEBUG 4996 --- [http-nio-8080-exec-4] i.n.a.realspring.services.FilmService    : FileService -> findById() with id
+2018-06-13 17:33:44.215 DEBUG 4996 --- [http-nio-8080-exec-5] i.n.a.r.controllers.FilmController       : getFilmById() called
+2018-06-13 17:33:44.215 DEBUG 4996 --- [http-nio-8080-exec-5] i.n.a.realspring.services.FilmService    : FileService -> findById() with id

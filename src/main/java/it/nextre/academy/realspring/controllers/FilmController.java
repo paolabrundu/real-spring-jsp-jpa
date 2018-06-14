@@ -2,8 +2,11 @@ package it.nextre.academy.realspring.controllers;
 
 import it.nextre.academy.realspring.models.Film;
 import it.nextre.academy.realspring.services.FilmService;
+import it.nextre.academy.realspring.utils.ResponseHelper;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -12,49 +15,54 @@ import java.util.List;
 @RequestMapping("/film")
 public class FilmController {
 
-    @Autowired //per cercare quello che gli specifico nella libreria di spring, se il bean non esiste lo crea
-            FilmService filmService;
+   //per cercare quello che gli specifico nella libreria di spring, se il bean non esiste lo crea
+   @Autowired
+   FilmService filmService;
+
+    @Autowired
+    ResponseHelper responseHelper;
 
     Logger logg = Logger.getLogger(FilmController.class);
 
 
     @GetMapping("/")
-    public List<Film> getFilms() {
+    public ResponseEntity getFilms() {
         logg.debug("getFilms() called");
-        return filmService.getAll();
+        return new ResponseEntity(filmService.getAll(), HttpStatus.OK);
+
     }
 
 
     @GetMapping("/{id}")
-    public Film getFilmById(@PathVariable("id") Long id) {
+    public ResponseEntity getFilmById(@PathVariable("id") Long id) {
         logg.debug("getFilmById() called");
         if (id != null) {
-            return filmService.findById(id);
+            return new ResponseEntity(filmService.findById(id), HttpStatus.OK);
 
         } else {
-            return null;
+            return new ResponseEntity(filmService.findById(id), HttpStatus.NOT_FOUND);
         }
     }
 
     @GetMapping("/search/regista/{regista}")
-    public List<Film> getFilmByRegista(@PathVariable("regista") String regista) {
+    public ResponseEntity getFilmByRegista(@PathVariable("regista") String regista) {
         logg.debug("getFilmByRegista() called");
         if (!regista.equals(null)
                 && regista.length() > 0) {
-            return filmService.findByRegista(regista);
+            return new ResponseEntity(filmService.findByRegista(regista), HttpStatus.OK);
         } else {
-            return null;
+            return new ResponseEntity(filmService.findByRegista(regista), HttpStatus.NOT_FOUND);
         }
     }
 
     @GetMapping("search/titolo/{titolo}")
-    public List<Film> getFilmByTitolo(@PathVariable("titolo") String titolo) {
+    public ResponseEntity getFilmByTitolo(@PathVariable("titolo") String titolo) {
         logg.debug("getFilmByTitolo() called");
         if (!titolo.equals(null)
                 && titolo.length() > 0) {
-            return filmService.findByTitolo(titolo);
+            return new ResponseEntity(filmService.findByTitolo(titolo), HttpStatus.OK);
         } else {
-            return null;
+            return new ResponseEntity(filmService.findByTitolo(titolo), HttpStatus.NOT_FOUND);
         }
     }
 
@@ -66,8 +74,9 @@ public class FilmController {
 //        }
 //    }
 
+    //per indicare che quello che  inserisco va messo del corpo del json
     @PostMapping("/")
-    public Film addFilm(@RequestBody Film f1) {  //per indicare che quello che  inserisco va messo del corpo del json
+    public Film addFilm(@RequestBody Film f1) {
         logg.debug("addFilm() called with film");
         return filmService.add(f1);
     }
