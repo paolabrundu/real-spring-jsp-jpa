@@ -63,7 +63,7 @@ public class FilmService {
 //    }
 
 
-    public Film add(Film film){
+    public Film add(Film film)throws Exception{
         logg.debug("FileService -> add() with film");
         if(film!=null && film.getId()==0
                 && film.getTitolo()!=null
@@ -74,15 +74,16 @@ public class FilmService {
                     .getId();
 
         film.setId(++id);
+            logg.debug(film);
         videoteca.add(film);
         return film;
     }
         else {
-            return new Film();
+            throw new Exception("Malformed film data");
         }
     }
 
-    public Film save(Film film){
+    public Film save(Film film)throws Exception{
         logg.debug("FileService -> save() called with film");
         if(film!=null && film.getId()>0
                 && film.getTitolo()!=null
@@ -95,17 +96,23 @@ public class FilmService {
                 v.get().setRegista(film.getRegista());
                 v.get().setAnno(film.getAnno());
                 return v.get();
+            } else{
+                throw new Exception("Malformed film data");
             }
         }
         return new Film();
 
     }
 
-    public boolean delete(Film film){
+    public boolean delete(Film film)throws Exception{
         logg.debug("FileService -> delete() called with film");
         if (film!=null && film.getId()>0){
             return videoteca.removeIf(f->f.getId()==film.getId());
 
-        } return false;
+        }
+        else{
+            throw new Exception("Malformed film data");
+            }
+            //return false;
     }
 }//end class

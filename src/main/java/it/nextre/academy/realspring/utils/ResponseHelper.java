@@ -18,6 +18,10 @@ public class ResponseHelper {
         return (ResponseEntity.badRequest().body(body));
     }
 
+    public ResponseEntity<Object> badRequest(String description) {
+        return this.badRequest(HttpStatus.BAD_REQUEST.toString(), description);
+    }
+
     public ResponseEntity<Object> fatalError(String description) {
         return (this.fatalError(ResponseHelper.FATAL_ERROR, description));
     }

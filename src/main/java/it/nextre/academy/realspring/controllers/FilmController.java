@@ -9,7 +9,6 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.List;
 
 @RestController  //per estrarre dati in formato json
 @RequestMapping("/film")
@@ -28,8 +27,7 @@ public class FilmController {
     @GetMapping("/")
     public ResponseEntity getFilms() {
         logg.debug("getFilms() called");
-        return new ResponseEntity(filmService.getAll(), HttpStatus.OK);
-
+        return responseHelper.ok(filmService.getAll());
     }
 
 
@@ -37,10 +35,10 @@ public class FilmController {
     public ResponseEntity getFilmById(@PathVariable("id") Long id) {
         logg.debug("getFilmById() called");
         if (id != null) {
-            return new ResponseEntity(filmService.findById(id), HttpStatus.OK);
+            return responseHelper.ok(filmService.findById(id));
 
         } else {
-            return new ResponseEntity(filmService.findById(id), HttpStatus.NOT_FOUND);
+            return responseHelper.badRequest("Invalid input data");
         }
     }
 
@@ -49,9 +47,9 @@ public class FilmController {
         logg.debug("getFilmByRegista() called");
         if (!regista.equals(null)
                 && regista.length() > 0) {
-            return new ResponseEntity(filmService.findByRegista(regista), HttpStatus.OK);
+            return responseHelper.ok(filmService.findByRegista(regista));
         } else {
-            return new ResponseEntity(filmService.findByRegista(regista), HttpStatus.NOT_FOUND);
+            return responseHelper.badRequest("Invalid input data");
         }
     }
 
@@ -60,9 +58,9 @@ public class FilmController {
         logg.debug("getFilmByTitolo() called");
         if (!titolo.equals(null)
                 && titolo.length() > 0) {
-            return new ResponseEntity(filmService.findByTitolo(titolo), HttpStatus.OK);
+            return responseHelper.ok(filmService.findByTitolo(titolo));
         } else {
-            return new ResponseEntity(filmService.findByTitolo(titolo), HttpStatus.NOT_FOUND);
+            return responseHelper.badRequest("Invalid input data");
         }
     }
 
@@ -74,31 +72,44 @@ public class FilmController {
 //        }
 //    }
 
+
     //per indicare che quello che  inserisco va messo del corpo del json
     @PostMapping("/")
-    public Film addFilm(@RequestBody Film f1) {
+    public ResponseEntity addFilm(@RequestBody Film f1) {
         logg.debug("addFilm() called with film");
-        return filmService.add(f1);
+        try {
+            return responseHelper.ok(filmService.add(f1));
+        } catch (Exception e){
+            return responseHelper.badRequest(e.getMessage());
+        }
     }
 
 
     @PutMapping("/{idFilm}")
-    public Film updateFilm(@RequestBody Film f1, @PathVariable("idFilm") long id) {
+    public ResponseEntity updateFilm(@RequestBody Film f1, @PathVariable("idFilm") long id) {
         logg.debug("updateFilm() called with film: " + f1 + " and id " + id);
         if (f1.getId()==id){
-            return filmService.save(f1);
+            try {
+                return responseHelper.ok(filmService.save(f1));
+            } catch (Exception e) {
+                return responseHelper.badRequest(e.getMessage());
+            }
         } else {
-            return new Film();
+            return responseHelper.badRequest("Invalid input data");
         }
 
     }
 
     @DeleteMapping("/{idFilm}")
-    public boolean deleteFilm(@RequestBody Film f1, @PathVariable ("idFilm") long id){
+    public ResponseEntity deleteFilm(@RequestBody Film f1, @PathVariable ("idFilm") long id){
         logg.debug("deleteFilm() called with film: " + f1 + " and id " + id);
         if (f1.getId()==id){
-            return filmService.delete(f1);
+            try {
+                return responseHelper.ok(filmService.delete(f1));
+            } catch (Exception e) {
+                return responseHelper.badRequest(e.getMessage());
+            }
         } else {
-            return false;
+            return responseHelper.badRequest("Invalid input data");
         }}
 }//end class
