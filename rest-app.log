@@ -187,16 +187,16 @@ Verify the connector's configuration, identify and stop any process that's liste
 2018-06-13 10:54:49.926  INFO 13200 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.31
 2018-06-13 10:54:50.023  INFO 13200 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
 2018-06-13 10:54:50.957  WARN 13200 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'filmController' method 
-public java.util.List<it.nextre.academy.realspring.models.Film> it.nextre.academy.realspring.controllers.FilmController.addFilm(java.util.List<it.nextre.academy.realspring.models.Film>)
+public java.util.List<it.nextre.academy.realspring.entities.Film> it.nextre.academy.realspring.controllers.FilmController.addFilm(java.util.List<it.nextre.academy.realspring.entities.Film>)
 to {[/film/],methods=[POST]}: There is already 'filmController' bean method
-public it.nextre.academy.realspring.models.Film it.nextre.academy.realspring.controllers.FilmController.addFilm(it.nextre.academy.realspring.models.Film) mapped.
+public it.nextre.academy.realspring.entities.Film it.nextre.academy.realspring.controllers.FilmController.addFilm(it.nextre.academy.realspring.entities.Film) mapped.
 2018-06-13 10:54:50.957  INFO 13200 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
 2018-06-13 10:54:50.988 ERROR 13200 --- [restartedMain] o.s.boot.SpringApplication               : Application startup failed
 
 org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'filmController' method 
-public java.util.List<it.nextre.academy.realspring.models.Film> it.nextre.academy.realspring.controllers.FilmController.addFilm(java.util.List<it.nextre.academy.realspring.models.Film>)
+public java.util.List<it.nextre.academy.realspring.entities.Film> it.nextre.academy.realspring.controllers.FilmController.addFilm(java.util.List<it.nextre.academy.realspring.entities.Film>)
 to {[/film/],methods=[POST]}: There is already 'filmController' bean method
-public it.nextre.academy.realspring.models.Film it.nextre.academy.realspring.controllers.FilmController.addFilm(it.nextre.academy.realspring.models.Film) mapped.
+public it.nextre.academy.realspring.entities.Film it.nextre.academy.realspring.controllers.FilmController.addFilm(it.nextre.academy.realspring.entities.Film) mapped.
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1634) ~[spring-beans-4.3.17.RELEASE.jar:4.3.17.RELEASE]
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555) ~[spring-beans-4.3.17.RELEASE.jar:4.3.17.RELEASE]
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483) ~[spring-beans-4.3.17.RELEASE.jar:4.3.17.RELEASE]
@@ -220,9 +220,9 @@ public it.nextre.academy.realspring.models.Film it.nextre.academy.realspring.con
 	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_161]
 	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-1.5.13.RELEASE.jar:1.5.13.RELEASE]
 Caused by: java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'filmController' method 
-public java.util.List<it.nextre.academy.realspring.models.Film> it.nextre.academy.realspring.controllers.FilmController.addFilm(java.util.List<it.nextre.academy.realspring.models.Film>)
+public java.util.List<it.nextre.academy.realspring.entities.Film> it.nextre.academy.realspring.controllers.FilmController.addFilm(java.util.List<it.nextre.academy.realspring.entities.Film>)
 to {[/film/],methods=[POST]}: There is already 'filmController' bean method
-public it.nextre.academy.realspring.models.Film it.nextre.academy.realspring.controllers.FilmController.addFilm(it.nextre.academy.realspring.models.Film) mapped.
+public it.nextre.academy.realspring.entities.Film it.nextre.academy.realspring.controllers.FilmController.addFilm(it.nextre.academy.realspring.entities.Film) mapped.
 	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.assertUniqueMethodMapping(AbstractHandlerMethodMapping.java:576) ~[spring-webmvc-4.3.17.RELEASE.jar:4.3.17.RELEASE]
 	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:540) ~[spring-webmvc-4.3.17.RELEASE.jar:4.3.17.RELEASE]
 	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:264) ~[spring-webmvc-4.3.17.RELEASE.jar:4.3.17.RELEASE]
@@ -241,16 +241,16 @@ public it.nextre.academy.realspring.models.Film it.nextre.academy.realspring.con
 2018-06-13 10:55:22.666  INFO 8760 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.31
 2018-06-13 10:55:22.760  INFO 8760 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
 2018-06-13 10:55:23.681  WARN 8760 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'filmController' method 
-public it.nextre.academy.realspring.models.Film it.nextre.academy.realspring.controllers.FilmController.addFilm(it.nextre.academy.realspring.models.Film)
+public it.nextre.academy.realspring.entities.Film it.nextre.academy.realspring.controllers.FilmController.addFilm(it.nextre.academy.realspring.entities.Film)
 to {[/film/],methods=[POST]}: There is already 'filmController' bean method
-public java.util.List<it.nextre.academy.realspring.models.Film> it.nextre.academy.realspring.controllers.FilmController.addFilm(java.util.List<it.nextre.academy.realspring.models.Film>) mapped.
+public java.util.List<it.nextre.academy.realspring.entities.Film> it.nextre.academy.realspring.controllers.FilmController.addFilm(java.util.List<it.nextre.academy.realspring.entities.Film>) mapped.
 2018-06-13 10:55:23.681  INFO 8760 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
 2018-06-13 10:55:23.713 ERROR 8760 --- [restartedMain] o.s.boot.SpringApplication               : Application startup failed
 
 org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'filmController' method 
-public it.nextre.academy.realspring.models.Film it.nextre.academy.realspring.controllers.FilmController.addFilm(it.nextre.academy.realspring.models.Film)
+public it.nextre.academy.realspring.entities.Film it.nextre.academy.realspring.controllers.FilmController.addFilm(it.nextre.academy.realspring.entities.Film)
 to {[/film/],methods=[POST]}: There is already 'filmController' bean method
-public java.util.List<it.nextre.academy.realspring.models.Film> it.nextre.academy.realspring.controllers.FilmController.addFilm(java.util.List<it.nextre.academy.realspring.models.Film>) mapped.
+public java.util.List<it.nextre.academy.realspring.entities.Film> it.nextre.academy.realspring.controllers.FilmController.addFilm(java.util.List<it.nextre.academy.realspring.entities.Film>) mapped.
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1634) ~[spring-beans-4.3.17.RELEASE.jar:4.3.17.RELEASE]
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555) ~[spring-beans-4.3.17.RELEASE.jar:4.3.17.RELEASE]
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483) ~[spring-beans-4.3.17.RELEASE.jar:4.3.17.RELEASE]
@@ -274,9 +274,9 @@ public java.util.List<it.nextre.academy.realspring.models.Film> it.nextre.academ
 	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_161]
 	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-1.5.13.RELEASE.jar:1.5.13.RELEASE]
 Caused by: java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'filmController' method 
-public it.nextre.academy.realspring.models.Film it.nextre.academy.realspring.controllers.FilmController.addFilm(it.nextre.academy.realspring.models.Film)
+public it.nextre.academy.realspring.entities.Film it.nextre.academy.realspring.controllers.FilmController.addFilm(it.nextre.academy.realspring.entities.Film)
 to {[/film/],methods=[POST]}: There is already 'filmController' bean method
-public java.util.List<it.nextre.academy.realspring.models.Film> it.nextre.academy.realspring.controllers.FilmController.addFilm(java.util.List<it.nextre.academy.realspring.models.Film>) mapped.
+public java.util.List<it.nextre.academy.realspring.entities.Film> it.nextre.academy.realspring.controllers.FilmController.addFilm(java.util.List<it.nextre.academy.realspring.entities.Film>) mapped.
 	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.assertUniqueMethodMapping(AbstractHandlerMethodMapping.java:576) ~[spring-webmvc-4.3.17.RELEASE.jar:4.3.17.RELEASE]
 	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:540) ~[spring-webmvc-4.3.17.RELEASE.jar:4.3.17.RELEASE]
 	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:264) ~[spring-webmvc-4.3.17.RELEASE.jar:4.3.17.RELEASE]
@@ -295,16 +295,16 @@ public java.util.List<it.nextre.academy.realspring.models.Film> it.nextre.academ
 2018-06-13 11:25:15.265  INFO 10768 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.31
 2018-06-13 11:25:15.378  INFO 10768 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
 2018-06-13 11:25:16.280  WARN 10768 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'filmController' method 
-public it.nextre.academy.realspring.models.Film it.nextre.academy.realspring.controllers.FilmController.addFilm(it.nextre.academy.realspring.models.Film)
+public it.nextre.academy.realspring.entities.Film it.nextre.academy.realspring.controllers.FilmController.addFilm(it.nextre.academy.realspring.entities.Film)
 to {[/film/],methods=[POST]}: There is already 'filmController' bean method
-public java.util.List<it.nextre.academy.realspring.models.Film> it.nextre.academy.realspring.controllers.FilmController.addFilm(java.util.List<it.nextre.academy.realspring.models.Film>) mapped.
+public java.util.List<it.nextre.academy.realspring.entities.Film> it.nextre.academy.realspring.controllers.FilmController.addFilm(java.util.List<it.nextre.academy.realspring.entities.Film>) mapped.
 2018-06-13 11:25:16.296  INFO 10768 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
 2018-06-13 11:25:16.312 ERROR 10768 --- [restartedMain] o.s.boot.SpringApplication               : Application startup failed
 
 org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'filmController' method 
-public it.nextre.academy.realspring.models.Film it.nextre.academy.realspring.controllers.FilmController.addFilm(it.nextre.academy.realspring.models.Film)
+public it.nextre.academy.realspring.entities.Film it.nextre.academy.realspring.controllers.FilmController.addFilm(it.nextre.academy.realspring.entities.Film)
 to {[/film/],methods=[POST]}: There is already 'filmController' bean method
-public java.util.List<it.nextre.academy.realspring.models.Film> it.nextre.academy.realspring.controllers.FilmController.addFilm(java.util.List<it.nextre.academy.realspring.models.Film>) mapped.
+public java.util.List<it.nextre.academy.realspring.entities.Film> it.nextre.academy.realspring.controllers.FilmController.addFilm(java.util.List<it.nextre.academy.realspring.entities.Film>) mapped.
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1634) ~[spring-beans-4.3.17.RELEASE.jar:4.3.17.RELEASE]
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555) ~[spring-beans-4.3.17.RELEASE.jar:4.3.17.RELEASE]
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483) ~[spring-beans-4.3.17.RELEASE.jar:4.3.17.RELEASE]
@@ -328,9 +328,9 @@ public java.util.List<it.nextre.academy.realspring.models.Film> it.nextre.academ
 	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_161]
 	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-1.5.13.RELEASE.jar:1.5.13.RELEASE]
 Caused by: java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'filmController' method 
-public it.nextre.academy.realspring.models.Film it.nextre.academy.realspring.controllers.FilmController.addFilm(it.nextre.academy.realspring.models.Film)
+public it.nextre.academy.realspring.entities.Film it.nextre.academy.realspring.controllers.FilmController.addFilm(it.nextre.academy.realspring.entities.Film)
 to {[/film/],methods=[POST]}: There is already 'filmController' bean method
-public java.util.List<it.nextre.academy.realspring.models.Film> it.nextre.academy.realspring.controllers.FilmController.addFilm(java.util.List<it.nextre.academy.realspring.models.Film>) mapped.
+public java.util.List<it.nextre.academy.realspring.entities.Film> it.nextre.academy.realspring.controllers.FilmController.addFilm(java.util.List<it.nextre.academy.realspring.entities.Film>) mapped.
 	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.assertUniqueMethodMapping(AbstractHandlerMethodMapping.java:576) ~[spring-webmvc-4.3.17.RELEASE.jar:4.3.17.RELEASE]
 	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:540) ~[spring-webmvc-4.3.17.RELEASE.jar:4.3.17.RELEASE]
 	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:264) ~[spring-webmvc-4.3.17.RELEASE.jar:4.3.17.RELEASE]
@@ -425,3 +425,19 @@ public java.util.List<it.nextre.academy.realspring.models.Film> it.nextre.academ
 2018-06-13 17:33:38.014 DEBUG 4996 --- [http-nio-8080-exec-4] i.n.a.realspring.services.FilmService    : FileService -> findById() with id
 2018-06-13 17:33:44.215 DEBUG 4996 --- [http-nio-8080-exec-5] i.n.a.r.controllers.FilmController       : getFilmById() called
 2018-06-13 17:33:44.215 DEBUG 4996 --- [http-nio-8080-exec-5] i.n.a.realspring.services.FilmService    : FileService -> findById() with id
+2018-06-14 10:43:47.995  INFO 10244 --- [restartedMain] i.n.a.realspring.RealspringApplication   : Starting RealspringApplication on DESKTOP-2I2JED6 with PID 10244 (C:\academy3\pr-46realspring\target\classes started by Paola in C:\academy3\pr-46realspring)
+2018-06-14 10:43:47.995 DEBUG 10244 --- [restartedMain] i.n.a.realspring.RealspringApplication   : Running with Spring Boot v1.5.13.RELEASE, Spring v4.3.17.RELEASE
+2018-06-14 10:43:47.995  INFO 10244 --- [restartedMain] i.n.a.realspring.RealspringApplication   : No active profile set, falling back to default profiles: default
+2018-06-14 10:43:50.450  INFO 10244 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-06-14 10:43:50.450  INFO 10244 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-06-14 10:43:50.591  INFO 10244 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-06-14 10:43:51.234  INFO 10244 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-06-14 10:43:51.296  INFO 10244 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2018-06-14 10:43:51.296  INFO 10244 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2018-06-14 10:43:51.296  INFO 10244 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2018-06-14 10:43:51.343  INFO 10244 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-06-14 10:43:51.531  INFO 10244 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-06-14 10:43:51.705  INFO 10244 --- [restartedMain] org.hibernate.tool.hbm2ddl.SchemaUpdate  : HHH000228: Running hbm2ddl schema update
+2018-06-14 10:43:52.985  INFO 10244 --- [restartedMain] i.n.a.realspring.RealspringApplication   : Started RealspringApplication in 5.287 seconds (JVM running for 5.884)
