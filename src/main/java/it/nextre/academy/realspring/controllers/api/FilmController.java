@@ -1,4 +1,4 @@
-package it.nextre.academy.realspring.controllers;
+package it.nextre.academy.realspring.controllers.api;
 
 import it.nextre.academy.realspring.entities.Film;
 import it.nextre.academy.realspring.services.FilmService;
@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.*;
 
 
 @RestController  //per estrarre dati in formato json
-@RequestMapping("/film")
+@RequestMapping("/api/film")
 public class FilmController {
 
    //per cercare quello che gli specifico nella libreria di spring, se il bean non esiste lo crea
