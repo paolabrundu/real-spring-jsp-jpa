@@ -16,7 +16,7 @@ public class FilmController {
 
    //per cercare quello che gli specifico nella libreria di spring, se il bean non esiste lo crea
    @Autowired
-   @Qualifier("mockfilm")
+   @Qualifier("implfilm")
    FilmService filmService;
 
     @Autowired

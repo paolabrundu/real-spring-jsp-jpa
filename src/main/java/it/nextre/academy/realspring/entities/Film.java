@@ -3,6 +3,8 @@ package it.nextre.academy.realspring.entities;
 import lombok.*;
 
 import javax.persistence.*;
+import javax.validation.constraints.Max;
+import javax.validation.constraints.Min;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 
@@ -28,6 +30,8 @@ public class Film {
     @Column(length=255)
     private String titolo;
     private String regista;
-    @Size(min=1900, max=2100, message="Questo campo è obbligatorio")
+    //@Size(min=1900, max=2100, message="Questo campo è obbligatorio")
+    @Min(1900)
+    @Max(2100)
     private int anno;
 }//end class
